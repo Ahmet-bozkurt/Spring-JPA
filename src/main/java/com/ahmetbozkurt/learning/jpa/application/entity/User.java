@@ -1,4 +1,4 @@
-package com.ahmetbozkurt.learning.jpa.artifactjpain10steps.entity;
+package com.ahmetbozkurt.learning.jpa.application.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

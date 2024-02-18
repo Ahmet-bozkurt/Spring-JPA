@@ -1,6 +1,6 @@
-package com.ahmetbozkurt.learning.jpa.artifactjpain10steps.service;
+package com.ahmetbozkurt.learning.jpa.application.service;
 
-import com.ahmetbozkurt.learning.jpa.artifactjpain10steps.entity.User;
+import com.ahmetbozkurt.learning.jpa.application.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

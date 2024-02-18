@@ -1,6 +1,6 @@
-package com.ahmetbozkurt.learning.jpa.artifactjpain10steps.service;
+package com.ahmetbozkurt.learning.jpa.application.service;
 
-import com.ahmetbozkurt.learning.jpa.artifactjpain10steps.entity.User;
+import com.ahmetbozkurt.learning.jpa.application.entity.User;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -1,10 +1,10 @@
-package com.ahmetbozkurt.learning.jpa.artifactjpain10steps;
+package com.ahmetbozkurt.learning.jpa.application;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ArtifactJpaIn10StepsApplicationTests {
+class JpaApplicationTests {
 
 	@Test
 	void contextLoads() {

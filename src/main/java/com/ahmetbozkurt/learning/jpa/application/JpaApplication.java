@@ -1,13 +1,13 @@
-package com.ahmetbozkurt.learning.jpa.artifactjpain10steps;
+package com.ahmetbozkurt.learning.jpa.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ArtifactJpaIn10StepsApplication {
+public class JpaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ArtifactJpaIn10StepsApplication.class, args);
+		SpringApplication.run(JpaApplication.class, args);
 	}
 
 }
