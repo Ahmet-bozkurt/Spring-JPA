@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ahmetbozkurt.learning.jpa</groupId>
-	<artifactId>artifact-jpa-in-10-steps</artifactId>
+	<artifactId>jpa-application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>artifact-jpa-in-10-steps</name>
+	<name>jpa-application</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
