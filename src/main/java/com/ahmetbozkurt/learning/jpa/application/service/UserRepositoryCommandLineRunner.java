@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+import java.util.Optional;
+
 @Component
 public class UserRepositoryCommandLineRunner implements CommandLineRunner {
 
@@ -18,10 +21,16 @@ public class UserRepositoryCommandLineRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        User user = new User("Cagkan", "Admin");
+        User user = new User("Rana", "Admin");
 
         userRepository.save(user);
 
         log.info("New user created: " + user);
+
+        Optional<User> userWithIdOne = userRepository.findById(1L);
+        log.info("User is retrieved: " + userWithIdOne);
+
+        List<User> users = userRepository.findAll();
+        log.info("All users: " + users);
     }
 }

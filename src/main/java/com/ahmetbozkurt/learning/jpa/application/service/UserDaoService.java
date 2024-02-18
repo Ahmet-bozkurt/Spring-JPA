@@ -17,7 +17,6 @@ public class UserDaoService {
 
         entityManager.persist(user);
 
-
         return user.getId();
     }
 
